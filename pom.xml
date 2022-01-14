@@ -16,9 +16,9 @@
     </dependency>
   </dependencies>
   <properties>
-    <sonar.host.url>ubuntu@ec2-3-110-92-175.ap-south-1.compute.amazonaws.com:9000</sonar.host.url>
-		<sonar.login>admin</sonar.login>
-		<sonar.password>Vasantha@007</sonar.password>
+    <sonar.host.url>http://ec2-3-110-92-175.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>Vasantha@007</sonar.password>
     
   </properties>
   <build>
