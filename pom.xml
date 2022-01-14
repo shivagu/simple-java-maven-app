@@ -21,23 +21,7 @@
     <sonar.password>Vasantha@007</sonar.password>
     
   </properties>
-  
-  <distributionManagement>
-	
-	    <Repository>
-	      <id>nexus</id>
-	      <name>shiva reddy Releases Nexus Repository</name>
-	      <url>http://ec2-13-232-215-117.ap-south-1.compute.amazonaws.com:8081/repository/newproject-release/</url>
-	    </Repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>shiva reddy Snapshot Nexus Repository </name>
-	      <url>http://ec2-13-232-215-117.ap-south-1.compute.amazonaws.com:8081/repository/newproject-snapshot/</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
-  <build>
+   <build>
     <pluginManagement>
       <plugins>
         <plugin>
